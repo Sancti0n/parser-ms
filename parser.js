@@ -1,7 +1,6 @@
 const title = document.getElementsByClassName('nom_serie');
 const editor = document.getElementsByClassName('editeur');
 const nbVolume = document.getElementsByClassName('volume');
-const type = document.getElementsByClassName('color_status_complete');
 let temp = {};
 for (let i=0;i<title.length;i=i+2) {
     const serie = {
